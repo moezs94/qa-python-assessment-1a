@@ -182,9 +182,11 @@ def six(input):
 
 
 def seven(input):
-    return ""
+    return ch.lower() in ['A', 'E', 'I', 'O', 'U']
+ 
 
-    # <QUESTION 8>
+
+
 
     # Write a function which takes an input (between 1 and 10 inclusive) and multiplies it by all the numbers before it.
     # eg If the input is 4, the function calculates 4x3x2x1 = 24
