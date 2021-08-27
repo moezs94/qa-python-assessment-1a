@@ -35,7 +35,12 @@
 
 
 def one(input1, input2):
-    return ""
+    if int(len(input1) > int(len(input2):
+    return input1
+    elif int(len(input2) > int(len((input1)):
+        return input2 
+    else:
+        return input1 " " + input2
 
    # <QUESTION 2>
 
@@ -72,20 +77,18 @@ def two(input):
     # if this number is divisible by both 3 and 5 return "fizzbuzz"
     # if this number is not divisible by 3 or 5 return "null"
 
-    # <EXAMPLES>
-
-    # three(3) → "fizz"
-    # three(10) → "buzz"
-    # three(15) → "fizzbuzz"
-    # three(8) → "null"
-
-    # <HINT>
-
-    # No Hints for this question
 
 
 def three(arg1):
-    return ""
+    for num in range (1, 100)
+    if num % 3 == 0:
+        print("fizz")
+        elif num % 5 == 0:
+            print("buzz")
+            elif num % 3 and 5 == 0:
+            print("fizz buzz")
+            else num !% 3 or 5 == 0:
+            print("null")
 
     # <QUESTION 4>
 
